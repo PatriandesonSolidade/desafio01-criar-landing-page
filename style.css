@@ -1,0 +1,104 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'inter';
+    }
+
+    .cabecalho{
+        background-color: #303030;
+        height: 320px;
+        color: #ffff;
+        display: flex;
+        align-items: center;  
+    }
+
+   #texto-titulo{
+        margin-top: 40px;
+        margin-left: 60px;
+        font-size: 50px;
+    }
+
+    #texto-subtitulo{
+        margin-left: 65px;
+        font-size: 15px;
+    }
+
+    .menu-informacional{
+        background-color: #f9f9f9;
+        padding: 85px;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    #titulo-menu-infomacional{
+        font-weight: bolder;
+        font-size: 25px;   
+    }
+
+   #imagem-arquitetura{
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 310px;
+    height: 405px;
+   }
+
+   
+   #conteudo-principal{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    }
+    
+    .titulo-conteudo-principal{
+        margin: 200px 0px 0px 200px;
+        text-align: justify;
+        
+    }
+
+    #texto-conteudo-principal{
+        margin: 30px 0px 0px 200px;
+        text-align: justify;
+    }
+
+    #formulario{
+        text-align: center;
+        background-color: #303030;
+    }
+
+    #titulo-formulario{
+        color: #f9f9f9;
+        padding: 50px;
+    }
+
+    input{
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        border: 0px;
+        margin: 25px;
+        padding: 5px;
+        padding-left: 15px;
+        background-color: #ffff;
+        
+     }
+
+    button{
+        width: 145px;
+        height: 45px;
+        border-radius: 10px;
+        border: 0px;
+        margin: 25px;
+        padding: 5px;
+        color: #FFFFFF;
+        background-color: #C07212;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+/* adcionando animação ao passar mouse no botão **/
+    button:hover{
+        background-color: #e09942;
+        color: #303030;
+        transform: translateY(-7px);
+        box-shadow: 0px 15px 20px #16130e;
+        transition-duration: 0.3s;
+    }
